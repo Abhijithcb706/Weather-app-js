@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image:url('./pexels-pixabay-209831.jpg');
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 20px;
+    background-color: transparent; /* Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(128, 125, 125, 0.918); /* Adjust the alpha value here for the box shadow transparency */
+    /* margin-top: 105px; */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#locationInput{
+   width: 75%;
+}
+.weather-info {
+    margin-top: 20px;
+    color: rgb(150, 247, 242);
+    text-shadow: 0px 2px 5px rgb(28, 68, 66);
+}
